@@ -1,0 +1,12 @@
+add extension to run on a specific page 
+
+"content_scripts": [
+    {
+      // "matches": [
+      //   "https://us02web.zoom.us/wc/*/start",
+      //   "https://meet.google.com/*-*-*",
+      //   "https://meet.google.com/*-*-*?*"
+      // ],
+      "js": ["content-script.js"]
+    }
+  ],
